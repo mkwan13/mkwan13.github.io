@@ -44,7 +44,7 @@ function rollDice() {
 
     // TODO: set the 'data-roll' attribute to the randomRoll function
     //       for all elements that have the 'die' and 'selectable' class    
-    $('.die.selectable').attr('data-roll', randomRoll);
+    $('.die.selectable').attr('data-roll', randomRoll );
     
     // Leave this here to update the state after the dice are rolled
     $('.game').trigger('update-game-state');
